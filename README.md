@@ -32,10 +32,10 @@ INPLACE ALGORITHM:
 		System.out.println("THE REVERSED ARRAY IS: ");
 		  
 		//printing reversed array
-     for(i = 0; i < n; i++)
-     {
-         System.out.println(arr[i]);
-     }
-    }
-    }
+                for(i = 0; i < n; i++)
+                {
+                    System.out.println(arr[i]);
+                }
+              }
+           }
   
