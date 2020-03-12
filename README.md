@@ -1,17 +1,13 @@
 # array-reversal
 reversing array with inplace algorithm
-
-
-
 INPLACE ALGORITHM:
 // Iterate the loop from zeroth index to middle index
 // First iteration:swap the first index with last index 
-// next iteration: Increase the index to first+1 and swap it with index last-1 and continue until reaching the middle index
-
-// PROGRAM CODE:
-import java.util.*;
-public class Main
-{
+// next iteration: Increase the index to first+1 and swap it with index last-1 and continue until reaching the middle ind
+                
+      import java.util.*;
+      public class Main
+      {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int i, temp;
@@ -20,7 +16,7 @@ public class Main
 		int arr[] = new int[n];
 		System.out.println("ENTER THE ELEMENTS: ");
 		
-		// inserting elements into an array
+		//inserting elements into an array
 		for(i = 0; i < n; i++)
 		{
 		    arr[i] = sc.nextInt();
@@ -40,6 +36,6 @@ public class Main
      {
          System.out.println(arr[i]);
      }
-	}
-}
+    }
+    }
   
