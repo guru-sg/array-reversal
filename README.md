@@ -1,5 +1,8 @@
 # array-reversal
 reversing array with inplace algorithm
+
+
+
 //INPLACE ALGORITHM:
 // Iterate the loop from zeroth index to middle index
 // First iteration:swap the first index with last index 
