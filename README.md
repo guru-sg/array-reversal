@@ -3,7 +3,7 @@ reversing array with inplace algorithm
 
 
 
-//INPLACE ALGORITHM:
+INPLACE ALGORITHM:
 // Iterate the loop from zeroth index to middle index
 // First iteration:swap the first index with last index 
 // next iteration: Increase the index to first+1 and swap it with index last-1 and continue until reaching the middle index
